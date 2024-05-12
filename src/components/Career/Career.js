@@ -3,6 +3,7 @@ import {motion} from "framer-motion"
 import { useLocation } from 'react-router-dom'
 import "./Career.css"
 import myImg from "../../images/myimg.png"
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 const Career = () => {
   const location = useLocation();
@@ -35,6 +36,10 @@ const Career = () => {
         </div>
       </div>
 
+      <div className='arrow'>
+        <ArrowDownwardIcon className='arrow-icon' />
+      </div>
+
       <div className='intro'>
         <div className='section color-c'>
           <h4>② 北海道大学を中退</h4>
@@ -48,6 +53,10 @@ const Career = () => {
         </div>
       </div>
 
+      <div className='arrow'>
+        <ArrowDownwardIcon className='arrow-icon' />
+      </div>
+
       <div className='intro'>
         <div className='section color-d'>
           <h4>③ 携帯販売代理店に入社</h4>
@@ -56,6 +65,10 @@ const Career = () => {
             携帯ショップに勤めている友人の勧めもあり入社を決意致しました。
           </p>
         </div>
+      </div>
+
+      <div className='arrow'>
+        <ArrowDownwardIcon className='arrow-icon' />
       </div>
 
       <div className='intro'>
@@ -78,6 +91,10 @@ const Career = () => {
           </div>
           </div>
         </div>
+      </div>
+
+      <div className='arrow'>
+        <ArrowDownwardIcon className='arrow-icon' />
       </div>
 
       <div className='intro'>
