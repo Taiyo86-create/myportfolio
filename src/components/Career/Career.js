@@ -2,7 +2,6 @@ import React from 'react'
 import {motion} from "framer-motion"
 import { useLocation } from 'react-router-dom'
 import "./Career.css"
-import hokudai from "../../images/hokudai.png"
 
 const Career = () => {
   const location = useLocation();
@@ -24,21 +23,14 @@ const Career = () => {
       
       <div className='section'>
         <h4>①北海道大学に入学</h4>
-        <div className='sectionContainer'>
           <p>
           高校までは勉強が好きで受験のためかなり勉強をしておりました。<br />
           しかし学力はありましたが、将来どのような仕事をするのかがまだイメージできてなかったため、<br />
           1年時には学部が決まっておらず2年次以降に学部を決められる北海道大学に入学を決意致しました。
           </p>
-          <div className='imgArea'>
-            <img src={hokudai} className='img' />
-            <p>北大農学部の風景</p>
-          </div>
-        </div>
       </div>
       <div className='section'>
         <h4>②北海道大学を中退</h4>
-        <div className='sectionContainer'>
           <p>
             1年次に情報の授業を受け、プログラミングやofficeにのめり込み、<br />
             プログラミングを学習したいと決意致し、情報エレクトロニクス学部を目指しました。<br />
@@ -46,16 +38,14 @@ const Career = () => {
             プログラミング学習を諦めきれなかった私は留年を決意し、再度学習に励みましたが惜しくも成績が足りず2年目も以降がかないませんでした。<br />
             留年を許してもらう代わりにもし移行できなかった場合はすぐに就職し留年費用を返すという約束を親としていた私は中退を受け入れました。
           </p>
-        </div>
       </div>
       
       <div className='section'>
-        <h4>携帯販売代理店に入社</h4>
-        <div className='sectionContainer'>
+        <h4>④携帯販売代理店に入社</h4>
           <p>
-            
+            親に留年費用をすぐに返済できるかつプログラミングの勉強代を貯金することができる見込みのある会社を探しました。<br />
+            そんな時携帯ショップで働いている友人からのお勧めがあり入社を決定致しました。
           </p>
-        </div>
       </div>
       
     </motion.div>
