@@ -27,7 +27,7 @@ const Works = () => {
           <img src={works1} className='worksImg' />
           <div className="works-box-inner">
             <h3>オリジナルマッチングアプリ</h3>
-            <span>2024.04.10 *Renderでデプロイをしてるため読み気味がかなり遅めです。</span>
+            <span>2024.04.10 *Renderでデプロイをしてるため<br />読み込みがかなり遅めです。</span>
           </div>
         </div>
 
