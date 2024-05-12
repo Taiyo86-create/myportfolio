@@ -1,7 +1,7 @@
 .career{
-    overflow-y: scroll;
     width: calc(100vw - 200px);
-    height: 100vh;
+    height: calc(100vh - 200px); /* 例: ビューポートの高さからヘッダーなどの高さを差し引いた高さ */
+    overflow-y: scroll;
 }
 
 .career::-webkit-scrollbar{
@@ -12,7 +12,6 @@
 .introduce{
     font-size: 20px;
 }
-
 
 
 .sectionContainer{

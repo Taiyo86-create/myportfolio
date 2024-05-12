@@ -48,7 +48,15 @@ const Career = () => {
           </p>
         </div>
       </div>
-
+      
+      <div className='section'>
+        <h4>携帯販売代理店に入社</h4>
+        <div className='sectionContainer'>
+          <p>
+            
+          </p>
+        </div>
+      </div>
       
     </motion.div>
   )
