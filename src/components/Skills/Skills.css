@@ -1,3 +1,12 @@
+.skills{
+    overflow-y: scroll;
+    height: calc(100vh - 200px);
+}
+
+.skills::-webkit-scrollbar{
+    display: none;
+}
+
 .skillArea{
     display: flex;
     flex-wrap: wrap; /* 要素が折り返されるように設定 */

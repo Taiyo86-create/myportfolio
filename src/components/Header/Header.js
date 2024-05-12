@@ -9,7 +9,9 @@ const Header = () => {
   const path = location.pathname.substring(1);
   return (
     <div className='header'>
+      <div className='headerImg'>
         <img src={icon} className='myIcon' />
+      </div>
         <h1><StarIcon />{path || 'career'}</h1>
     </div>
   )
