@@ -29,6 +29,7 @@
 .sidebarOptions li:hover{
     background-color: gray;
     border-radius: 20px;
+    opacity: 0.6;
 }
 
 .sidebarOptions a{
