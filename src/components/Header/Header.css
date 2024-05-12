@@ -1,4 +1,5 @@
 .header{
+    position: relative;
     display: flex;
     width: 100vw;
 }
@@ -22,4 +23,17 @@
     width: calc(100vw - 200px);
     font-size: 40px;
     color: #555555;
+}
+
+.githubIcon{
+    position: absolute;
+    top: 10px !important;
+    right: 10px !important;
+    font-size: 60px !important;
+    color: black;
+    border-radius: 50%;
+}
+
+.githubIcon:hover{
+    background-color: white;
 }
