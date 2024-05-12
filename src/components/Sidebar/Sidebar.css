@@ -1,0 +1,22 @@
+.sideBar{
+    height: calc(100vh - 200px);
+    width: 200px;
+}
+
+.sidebarOptions{
+    height: calc(100vh - 200px);
+    background-color:  #ffbb33  ;
+}
+
+.sidebarOptions ul{
+    height: calc(100vh - 200px);
+}
+
+.sidebarOptions li{
+    list-style: none;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid white;
+}
