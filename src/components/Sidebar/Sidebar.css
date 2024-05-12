@@ -4,6 +4,7 @@
 }
 
 .sidebarOptions{
+    position: relative;
     height: calc(100vh - 200px);
     background-color:  #ffbb33  ;
 }
@@ -19,4 +20,18 @@
     margin-right: 10px;
     margin-bottom: 30px;
     border-bottom: 1px solid white;
+}
+
+.githubIcon{
+    position: absolute;
+    bottom: 0;
+    width: 100% !important;
+    font-size: 60px !important;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.githubIcon:hover{
+    background-color: gray;
 }

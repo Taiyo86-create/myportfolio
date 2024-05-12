@@ -1,5 +1,6 @@
 import React from 'react'
 import './Sidebar.css'
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const SidebarOption = () => {
   return (
@@ -10,6 +11,7 @@ const SidebarOption = () => {
         <li>works</li>
         <li>career</li>
       </ul>
+      <GitHubIcon  className='githubIcon'/>
     </div>
   )
 }
