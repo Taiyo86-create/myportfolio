@@ -7,13 +7,15 @@
     position: relative;
     height: calc(100vh - 200px);
     background-color:  #ffbb33;
-    width: 20px;
+    width: 50px;
     transition: width 0.3s;
 }
 
 .sidebarOptions:hover{
     width: 200px;
 }
+
+
 
 .sidebarOptions ul{
     height: calc(100vh - 200px);
