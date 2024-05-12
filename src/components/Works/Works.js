@@ -11,8 +11,16 @@ const Works = () => {
     window.open('https://matchpoke.onrender.com/', '_blank');
   };
 
+  const works2Link = () => {
+    window.open('https://github.com/Taiyo86-create/furima-40476', '_blank');
+  };
+
   const works3Link = () => {
     window.open('https://twitter-clone-57284.web.app/', '_blank');
+  };
+
+  const works4Link = () => {
+    window.open('https://github.com/Taiyo86-create/line-clone/', '_blank');
   };
 
   return (
@@ -31,7 +39,7 @@ const Works = () => {
           </div>
         </div>
 
-        <div className='works-box'>
+        <div className='works-box' onClick={works2Link}>
           <img src={works2} className='worksImg' />
           <div className="works-box-inner">
             <h3>Furimaアプリ</h3>
@@ -48,7 +56,7 @@ const Works = () => {
         </div>
       </div>
 
-      <div className='works'>
+      <div className='works' onClick={works4Link}>
         <div className='works-box'>
           <img src={works4} className='worksImg' />
           <div className="works-box-inner">
