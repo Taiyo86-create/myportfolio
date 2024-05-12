@@ -9,10 +9,9 @@ const SidebarOption = () => {
   return (
     <div className='sidebarOptions'>
       <ul>
-        <li>home</li>
+        <li>career</li>
         <li>skills</li>
         <li>works</li>
-        <li>career</li>
       </ul>
       <GitHubIcon className='githubIcon' onClick={handleGitHubClick} />
     </div>
