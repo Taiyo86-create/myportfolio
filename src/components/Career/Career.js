@@ -2,6 +2,7 @@ import React from 'react'
 import {motion} from "framer-motion"
 import { useLocation } from 'react-router-dom'
 import "./Career.css"
+import myImg from "../../images/myimg.png"
 
 const Career = () => {
   const location = useLocation();
@@ -50,14 +51,24 @@ const Career = () => {
 
       <div className='section'>
         <h4>④ 年間MVPを受賞</h4>
+          <div className='sectionContainer'>
           <p>
             やるからには全力でやりたかった私は年間MVPという表彰を目指しました。<br />
             しかし新人の私が先輩社員にクロージング能力では勝てない一年めの経験から悟り、勝てる部分がないか探したところ<br />
             実績を管理するのを徹底するというあくまで基本的なことに着眼しました。<br />
             毎朝朝礼前に今何の商材が足りてないか、何を獲得すればポイントを多く獲得することができるかの確認を徹底致しました。<br />
             結果2年めに年間MVPを受賞し、店舗からも信頼され自分だけではなく新人の教育と実績管理を任せていただけるようになりました。
-            
           </p>
+
+          <div className='imgArea'>
+            <img src={myImg} className='img' />
+            <p>
+              年間MVPを受賞した時の私です。<br />
+              個人情報保護のため<br />
+              一部切り取りをしております。
+            </p>
+          </div>
+          </div>
       </div>
       
     </motion.div>
