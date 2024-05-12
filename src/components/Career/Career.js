@@ -88,6 +88,10 @@ const Career = () => {
             そこからテックキャンプの受講を決意し現在に至ります。
           </p>
       </div>
+
+      <p className='introduce'>
+        長い文章でしたが、読んでいただき誠にありがとうございました!
+      </p>
       
     </motion.div>
   )
