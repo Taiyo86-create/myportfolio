@@ -1,0 +1,45 @@
+.worksArea{
+    overflow-y: scroll;
+    height: calc(100vh - 200px);
+}
+
+.worksArea::-webkit-scrollbar{
+    display: none;
+}
+
+.works {
+    width: calc(100vw - 220px); /* サイドバーの幅を考慮して調整 */
+    margin: 10px 0 0 10px;
+    display: flex;
+    flex-wrap: wrap; /* 要素が画面に収まらない場合に折り返すように設定 */
+    justify-content: space-between; /* 要素を均等に配置 */
+}
+
+.works-box {
+    flex-basis: calc(33.33% - 20px); /* 画面幅に対して均等に幅を設定 */
+    background-color: white;
+    box-shadow: -1rem 1.25rem 1rem rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px; /* 各ボックスの間に余白を追加 */
+}
+
+.works-box:hover {
+    background-color: #001f3f;
+    color: white;
+}
+
+.works-box-inner {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.works-box-inner span {
+    font-size: .75rem;
+    color: #a8a698;
+}
+
+.worksImg {
+    width: 100%;
+    max-width: 100%;
+    height: auto; /* 画像のアスペクト比を維持しつつ、幅に合わせて高さを自動調整 */
+    object-fit: cover; /* 画像がボックス内にフィットするように設定 */
+}
