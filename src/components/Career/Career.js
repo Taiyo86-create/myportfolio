@@ -75,7 +75,7 @@ const Career = () => {
         <div className='section  color-e'>
           <h4>④ 年間MVPを受賞</h4>
             <div className='sectionContainer'>
-              <p>
+              <p className='special'>
                 やるからには全力でやりたかった私は年間MVPという表彰を目指しました。<br />
                 毎朝礼前に今日何の商材が不足しているか、何を販売すればポイントを多く獲得することができるかの確認を徹底し<br />
                 結果2年めに年間MVPを受賞し、店舗からも信頼され自分だけではなく新人の教育と実績管理を任せていただけるようになりました。
