@@ -1,18 +1,15 @@
 .sideBar{
     height: calc(100vh - 200px);
     width: 200px;
+    box-sizing: border-box;
 }
 
 .sidebarOptions{
     position: relative;
     height: calc(100vh - 200px);
     background-color:  #ffbb33;
-    width: 50px;
-    transition: width 0.3s;
-}
-
-.sidebarOptions:hover{
     width: 200px;
+    transition: width 0.3s;
 }
 
 
