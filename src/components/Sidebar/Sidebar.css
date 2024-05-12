@@ -23,11 +23,21 @@
 
 .sidebarOptions li{
     list-style: none;
-    color: white;
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 30px;
     border-bottom: 1px solid white;
+    padding: 10px 20px;
+}
+
+.sidebarOptions li:hover{
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.sidebarOptions a{
+    text-decoration: none;
+    color: white;
 }
 
 .githubIcon{
