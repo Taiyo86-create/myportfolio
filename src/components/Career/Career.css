@@ -13,6 +13,10 @@
     font-size: 20px;
 }
 
+h4{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.745);
+}
 
 .sectionContainer{
     display: flex;

@@ -10,9 +10,9 @@ const SidebarOption = () => {
   return (
     <div className='sidebarOptions'>
       <ul>
-        <li><Link to="/">career</Link></li>
-        <li><Link to="/skills">skills</Link></li>
-        <li><Link to="/works">works</Link></li>
+        <Link to="/"><li>career</li></Link>
+        <Link to="/skills"><li>skills</li></Link>
+        <Link to="/works"><li>works</li></Link>
       </ul>
       <GitHubIcon className='githubIcon' onClick={handleGitHubClick} />
     </div>
