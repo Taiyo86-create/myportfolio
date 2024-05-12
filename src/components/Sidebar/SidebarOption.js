@@ -3,6 +3,9 @@ import './Sidebar.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 const SidebarOption = () => {
+  const handleGitHubClick = () => {
+    window.open('https://github.com/Taiyo86-create', '_blank');
+  };
   return (
     <div className='sidebarOptions'>
       <ul>
@@ -11,7 +14,7 @@ const SidebarOption = () => {
         <li>works</li>
         <li>career</li>
       </ul>
-      <GitHubIcon  className='githubIcon'/>
+      <GitHubIcon className='githubIcon' onClick={handleGitHubClick} />
     </div>
   )
 }
