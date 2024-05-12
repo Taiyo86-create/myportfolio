@@ -2,6 +2,7 @@
     width: calc(100vw - 200px);
     height: calc(100vh - 200px); /* 例: ビューポートの高さからヘッダーなどの高さを差し引いた高さ */
     overflow-y: scroll;
+    margin-left: 20px;
 }
 
 .career::-webkit-scrollbar{
