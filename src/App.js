@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Sidebar from './components/Sidebar/Sidebar';
 import Skills from './components/Skills/Skills';
 import Works from './components/Works/Works';
+import { AnimatePresence } from 'framer-motion';
 
 
 function App() {
@@ -14,11 +15,11 @@ function App() {
       <Header />
       <div className='main'>
         <Sidebar />
-        <Routes location={location} key={location.pathname}>
-          <Route path='/' element={<Career />} />
-          <Route path='/skills' element={<Skills />} />
-          <Route path='/works' element={<Works />} />
-        </Routes>
+          <Routes location={location} key={location.pathname}>
+            <Route path='/' element={<Career />} />
+            <Route path='/skills' element={<Skills />} />
+            <Route path='/works' element={<Works />} />
+          </Routes>
       </div>
     </div>
   );
