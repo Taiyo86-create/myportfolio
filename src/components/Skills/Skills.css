@@ -1,0 +1,35 @@
+.skillArea{
+    display: flex;
+    flex-wrap: wrap; /* 要素が折り返されるように設定 */
+    width: calc(100vw - 200px);
+}
+
+.skillBox{
+    flex-basis: calc(25% - 30px); /* 各要素の初期幅を設定（画面の幅に応じて調整） */
+    padding: 2.5rem;
+    margin: 10px 0 0 30px;
+    color: #fff;
+    box-shadow: -.75rem .625rem .75rem rgba(0, 0, 0, 0.25);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.color-a {
+    background-color: #4b20da;
+}
+
+.color-b {
+    background-color: #d94665;
+}
+
+.color-c {
+    background-color: #15c3d3;
+}
+
+.color-d{
+    background-color: rgb(242, 187, 48);
+}
+
+.color-e{
+    background-color: blue;
+}
