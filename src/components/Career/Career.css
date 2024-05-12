@@ -21,14 +21,15 @@
     border-radius: 30px;
     padding: 30px 60px;
     width: 80%;
+    box-shadow: -.75rem .625rem .75rem rgba(0, 0, 0, 0.25);
 }
 
 .section{
-    background-color: #4b20da;
     color: white;
     border-radius: 30px;
     padding: 30px 60px;
     width: 80%;
+    box-shadow: -.75rem .625rem .75rem rgba(0, 0, 0, 0.25);
 }
 
 h4{
