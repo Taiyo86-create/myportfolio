@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Career from './components/Career/Career';
 import Header from './components/Header/Header';
@@ -7,14 +8,17 @@ import Works from './components/Works/Works';
 
 
 function App() {
+  const location = useLocation()
   return (
     <div className="App">
       <Header />
       <div className='main'>
         <Sidebar />
-        <Career />
-        <Skills />
-        <Works />
+        <Routes location={location} key={location.pathname}>
+          <Route path='/' element={<Career />} />
+          <Route path='/skills' element={<Skills />} />
+          <Route path='/works' element={<Works />} />
+        </Routes>
       </div>
     </div>
   );
